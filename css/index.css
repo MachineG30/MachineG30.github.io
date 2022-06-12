@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.nav__input:checked + .nav__menu{
+    background: tomato;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background: #293241;
+    height: 80;
+    color : #fff;
+}
+
+.text {
+    color : black;
+}
+
+.nav__container{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__label, .nav__input{
+    display: none;
+}
+
+.nav__item {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__menu {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 3m;
+}
+
+.nav__logo {
+    font-size: 1.5em;
+    font-weight: 900;
+}
